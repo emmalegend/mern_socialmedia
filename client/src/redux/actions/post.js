@@ -1,5 +1,5 @@
 import * as api from "../../api";
-import { FETCH_ALL, CREATE, DELETE, UPDATE, LIKE } from "../contants/post";
+import { FETCH_ALL, CREATE, DELETE, UPDATE, LIKE } from "../contants";
 export const getPosts = () => async (dispatch) => {
   try {
     const { data } = await api.fetchPosts();

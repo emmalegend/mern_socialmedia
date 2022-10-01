@@ -1,4 +1,4 @@
-import { FETCH_ALL, UPDATE, DELETE, CREATE, LIKE } from "../contants/post";
+import { FETCH_ALL, UPDATE, DELETE, CREATE, LIKE } from "../contants";
 export const postsReducer = (posts = [], action) => {
   switch (action.type) {
     case FETCH_ALL:
