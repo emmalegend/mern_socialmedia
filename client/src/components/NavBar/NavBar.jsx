@@ -24,7 +24,7 @@ const NavBar = () => {
 
     JSON.parse(localStorage.getItem("profile"));
     console.log("hi");
-  }, [location]);
+  }, [location, user]);
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <div className={classes.brandContainer}>
